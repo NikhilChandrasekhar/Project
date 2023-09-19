@@ -4,3 +4,12 @@ if [$color = blue]
  then
   echo "The color is blue"
 fi
+
+value=$2
+computer=50
+if [$value-lt$computer]
+then
+	echo " the value is low"
+fi
+echo "Thanks"
+exit0
